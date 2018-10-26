@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1d989bb2027ba4488d981e5e534e9ff, type: 3}
+  m_Name: StartingState
+  m_EditorClassIdentifier: 
+  storyText: 'You are running for your life in the forest of Tartaria, at your back
+    is chasing you a handful of villagers from the Potmanforth Village.
+
+
+    Although you are quick, you know that you can be surrounded any time soon by them.
+    So, you need to choose:
+
+
+    Do you witsh to STILL RUNNING
+
+
+    or
+
+
+    CONFRONT THE VILLAGERS'
