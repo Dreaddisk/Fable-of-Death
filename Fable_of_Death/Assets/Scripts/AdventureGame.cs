@@ -7,12 +7,19 @@ public class AdventureGame : MonoBehaviour
 {
     #region Variables
     [SerializeField] Text textComponent;
+    [SerializeField] State startingState;
+
+    int[] oddNumbers = { 1, 3, 5, 7, 9 };
+
+    State state;
     #endregion
 
     #region UnityFunctions
     private void Start()
     {
-        textComponent.text = ("You are into my domain");
+        state = startingState;
+        textComponent.text = state.GetStateStory();
+        Debug.Log(oddNumbers[3]);
     }
     #endregion
 }// Main Class

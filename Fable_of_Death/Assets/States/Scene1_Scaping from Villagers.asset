@@ -9,7 +9,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b1d989bb2027ba4488d981e5e534e9ff, type: 3}
-  m_Name: StartingState
+  m_Name: Scene1_Scaping from Villagers
   m_EditorClassIdentifier: 
   storyText: 'You are running for your life in the forest of Tartaria, at your back
     is chasing you a handful of villagers from the Potmanforth Village.
@@ -19,10 +19,10 @@ MonoBehaviour:
     So, you need to choose:
 
 
-    Do you witsh to STILL RUNNING
+    1)  STILL RUNNING
 
 
-    or
-
-
-    CONFRONT THE VILLAGERS'
+    2)CONFRONT THE VILLAGERS'
+  nextStates:
+  - {fileID: 11400000, guid: cc401e19f653f4f4b9846e626e6e2f16, type: 2}
+  - {fileID: 11400000, guid: affcb6285c574a04b91b47a47f0f4d97, type: 2}
